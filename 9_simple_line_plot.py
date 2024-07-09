@@ -16,17 +16,18 @@ print(np.__version__)
 
 # siapka sample dataset
 x = np.arange(0.0, 2.0, 0.01)
-print(x)
+# print(x)
 
 s = np.sin(2 * np.pi * x)
-print(s)
+# print(s)
 
 # melakukan plotting dengan gaya OO Style
 fig, ax = plt.subplots()
 
 ax.plot(x, s)
+
 ax.set(xlabel='nilai x',
-       ylabel='nilai sin(x)',
-       title='vusialisasi nilai sin')
+        ylabel='nilai sin(x)',
+        title='vusialisasi nilai sin')
 ax.grid()
 plt.show()
